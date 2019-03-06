@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    
+    <title>Dynamic Menus</title>
+    <script type = "text/javascript" src="changeMenu.js">
+    </script>
+</head>
+    
+    <body>
+        <h2> Choose a country</h2>
+    <form action="#">
+        
+        <select id ="slct1"  name="slct1" onchange= "populate(this.id,'slct2')">
+        <option value =""></option>
+        <option value ="France">France</option>
+ 		<option value="China">China</option>
+		<option value="Ireland">Ireland</option>       
+        </select>
+        
+        
+        &nbsp;
+        <h2>choose a city</h2>
+        <select id ="slc2"  name="slct2">
+        <option></option>
+       </select>
+        </form>
+    
+    
+    </body>
+
+</html>
